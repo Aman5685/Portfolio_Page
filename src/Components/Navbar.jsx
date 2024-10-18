@@ -3,7 +3,7 @@ import { useState } from "react";
 import pic from"../../public/mypic.jpg"
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoClose } from "react-icons/io5";
-
+import { Link } from "react-scroll";
 function Navbar() {
     {/*menu->variale setMenu->Function*/}
     const [menu,setmenu]=useState(false);
@@ -31,7 +31,7 @@ function Navbar() {
     ]
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md bg-red-900 fixed top-0 left-0 right-0">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md bg-red-900 fixed top-0 left-0 right-0 z-50">
         <div className=" flex justify-between items-center   h-16">
                {/*Right part of navbar*/}
             <div className="flex space-x-2">
@@ -45,23 +45,40 @@ function Navbar() {
                 <ul className="hidden md:flex space-x-8">
                     {
                        navItems.map(({id,text})=>(
-                        <li className="hover:scale-105 hover:bg-slate-500 duration-200 cursor-pointer" key={id}>{text}</li>
+                        <li className="hover:scale-105 hover:bg-slate-500 duration-200 cursor-pointer"
+                         key={id}>
+                            {/*Link navbar to another components*/}
+                            <Link to={text}
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                            activeClass="active"
+                            >{text}</Link>
+                        </li>
                        )) 
                     }
                 </ul>
                 {/*Button function*/}
-                <div onClick={()=>setmenu(!menu)} className="md:hidden">{menu?<AiOutlineMenu size={24} />:<IoClose size={24} />}</div>
+                <div onClick={()=>setmenu(!menu)} className="md:hidden">{menu?<IoClose size={24} />:<AiOutlineMenu size={24} />}</div>
 
             </div>
         </div>
         {/*Mobile Navbar*/}
         {
             menu && (
-        <div>
+        <div className="bg-[powderblue]">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
             {
                        navItems.map(({id,text})=>(
-                        <li className="hover:scale-105 hover:bg-slate-500 duration-200 font-semibold cursor-pointer" key={id}>{text}</li>
+                        <li className="hover:scale-105 hover:bg-slate-500 duration-200 font-semibold cursor-pointer" key={id}>
+                    <Link onClick={()=>setmenu(!menu)} 
+                             to={text}
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                            activeClass="active"
+                            >{text}</Link>
+                        </li>
                        )) 
                     } 
             </ul>
