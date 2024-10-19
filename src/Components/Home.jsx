@@ -70,6 +70,9 @@ function Home() {
           </div>
         </div>
         </div>
+        <div className="">
+          <button className="mt-8 bg-green-500 hover:bg-blue-500 text-white fony-bold px-4 py-2 rounded-full">Download CV</button>
+        </div>
         </div>
         {/*Home right*/}
         <div className="md:w-1/2 md:ml-48 md:mt-20 mt-6 order-1">
@@ -78,7 +81,7 @@ function Home() {
           alt="" />
         </div>
         </div>
-    </div>
+        </div>
     <hr />
     </>
   )
