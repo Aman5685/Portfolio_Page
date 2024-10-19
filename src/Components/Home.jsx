@@ -71,7 +71,8 @@ function Home() {
         </div>
         </div>
         <div className="">
-          <button className="mt-8 bg-green-500 hover:bg-blue-500 text-white fony-bold px-4 py-2 rounded-full">Download CV</button>
+          <a href="https://docs.google.com/document/d/1RRXg7VbfuwQhQCVvb2-pAJUxVm9B5faT/edit?usp=sharing&ouid=112557359194929296543&rtpof=true&sd=true" target="_blank">
+          <button className="mt-8 bg-green-500 hover:bg-blue-500 text-white fony-bold px-4 py-2 rounded-full">Download CV</button></a>
         </div>
         </div>
         {/*Home right*/}
