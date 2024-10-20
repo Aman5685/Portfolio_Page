@@ -1,8 +1,9 @@
 // import React from 'react';
+//import { FaTelegram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -55,8 +56,9 @@ function Home() {
             <FaLinkedin className="text-2xl cursor-pointer" /></a></li>
           <li> <a href="https://www.youtube.com" target="_blank">
             <FaYoutube  className="text-2xl cursor-pointer"/></a></li>
-          <li> <a href="https://www.telegram.com" target="_blank">
-            <FaTelegram  className="text-2xl cursor-pointer"/></a></li>
+          <li> <a href="https://github.com/Aman5685" target="_blank">
+            <FaGithub  className="text-2xl cursor-pointer"/></a></li>
+ 
           </ul>
         </div>
         <div className="space-y-2">
