@@ -28,10 +28,11 @@ function Navbar() {
             id:5,
             text:"Contacts"
         },
+        
     ]
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md bg-red-900 fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md bg-red-800 text-white fixed top-0 left-0 right-0 z-50">
         <div className=" flex justify-between items-center   h-16">
                {/*Right part of navbar*/}
             <div className="flex space-x-2">
@@ -45,7 +46,7 @@ function Navbar() {
                 <ul className="hidden md:flex space-x-8">
                     {
                        navItems.map(({id,text})=>(
-                        <li className="hover:scale-105 hover:bg-slate-500 duration-200 cursor-pointer"
+                        <li className="hover:scale-105 duration-200 cursor-pointer"
                          key={id}>
                             {/*Link navbar to another components*/}
                             <Link to={text}

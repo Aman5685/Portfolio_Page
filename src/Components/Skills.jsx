@@ -37,7 +37,7 @@ function Skills() {
       <div name="Skills" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
         <div>
         <h1 className="text-3xl font-bold mb-5">Skills</h1>
-        <span className="underline text-xl font-semibold">Currently Working</span>
+        <span className="underline text-xl font-semibold"></span>
          <div className="grid grid-cols-2 md:grid-cols-5 gap-5 my-3">
             {
                 cardItem.map(({id,logo,name})=>(
