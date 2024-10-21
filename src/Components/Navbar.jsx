@@ -32,7 +32,7 @@ function Navbar() {
     ]
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md bg-red-800 text-white fixed top-0 left-0 right-0 z-50">
+      <div className="max-w-screen-2xl container mx-auto text-white px-4 md:px-20 h-16 shadow-md bg-red-800 fixed top-0 left-0 right-0 z-50">
         <div className=" flex justify-between items-center   h-16">
                {/*Right part of navbar*/}
             <div className="flex space-x-2">
