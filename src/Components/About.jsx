@@ -29,7 +29,7 @@ function About() {
        <p>
         [HTML5],[CSS],[Tailwind-css],[Java-Script]
         <br />
-        [React j.s],[Vue j.s],[Git-hub].
+        [React j.s],[Git-hub].
        </p>
        <br />
        <h1 className="text-green-500 text-2xl underline font-semibold">Achievements & Awards</h1>
