@@ -67,7 +67,7 @@ function Navbar() {
         {/*Mobile Navbar*/}
         {
             menu && (
-        <div className="bg-[powderblue]">
+        <div className="bg-[powderblue] text-black">
             <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
             {
                        navItems.map(({id,text})=>(
