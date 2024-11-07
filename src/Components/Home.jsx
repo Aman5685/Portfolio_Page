@@ -77,7 +77,7 @@ function Home() {
         <button className="mt-8 bg-green-500 hover:bg-blue-500 text-white font-bold px-4 py-2 rounded-full">Hire me</button></a>
         </div>
         <div>
-          <a href="https://drive.google.com/file/d/1F9A85PCR0243X7Vg9rdENSStc8LyWqTw/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1fETX4q6jK6xlabM_vpHxpQapOM0ndxgm/view?usp=sharing" target="_blank">
           <button className="bg-green-500 hover:bg-blue-500 text-white font-bold px-4 py-2 rounded-full">Download CV</button></a>
         </div>
         </div>
