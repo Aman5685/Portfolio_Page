@@ -40,7 +40,7 @@ function Home() {
              <br />
             My Interest Include Full Stack Web Developer. 
             <br />
-            My Future Goal is to get set the benchmark in the field of Java-Developer.
+            My Future Goal is to get set the benchmark in the field of Java Developer.
             <br />
             Take a look at my work through the tabs :
         </p>
@@ -94,4 +94,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
