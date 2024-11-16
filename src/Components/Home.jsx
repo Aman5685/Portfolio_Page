@@ -9,7 +9,7 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
-import { AiOutlineDotNet } from "react-icons/ai";
+import { FaJava } from "react-icons/fa";
 import pic from"../../public/mypic.jpg"
 
 
@@ -40,7 +40,7 @@ function Home() {
              <br />
             My Interest Include Full Stack Web Developer. 
             <br />
-            My Future Goal is to get set the benchmark in the field of Dot Net[Developer].
+            My Future Goal is to get set the benchmark in the field of Java-Developer.
             <br />
             Take a look at my work through the tabs :
         </p>
@@ -68,7 +68,7 @@ function Home() {
           <SiExpress className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[1px]"/>
           <FaReact className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[1px]"/>
           <FaNodeJs className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[1px]"/>
-          <AiOutlineDotNet className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[1px]" />
+          <FaJava className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[1px]" />
           </div>
         </div>
         </div>
